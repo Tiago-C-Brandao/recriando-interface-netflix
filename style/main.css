@@ -20,7 +20,7 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; /* Cria um espaçp entra as Tags filhas do .container a <h2> e a <nav>*/
+    justify-content: space-between; /* Cria um espaço entra as Tags filhas do .container a <h2> e a <nav>*/
 }
 
 header .logo {
@@ -83,4 +83,18 @@ header div a:hover {
 
 .button i {
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
