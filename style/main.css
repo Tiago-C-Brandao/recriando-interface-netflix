@@ -12,7 +12,7 @@
 /*Basic Elements*/
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -43,7 +43,7 @@ header div a:hover {
 /*Main Movie*/
 .main-movie {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/backgorund-lovecreaft.jpg);
+    background: linear-gradient(to right, black, transparent), url(/img/backgorund-lovecreaft.jpg);
 
     height: 400px;
     background-size: cover;
@@ -66,7 +66,7 @@ header div a:hover {
 }
 
 .button {
-    background-color: rgba(0,0,0,.50);
+    background-color: rgba(255,255,255,.2);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -74,6 +74,7 @@ header div a:hover {
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    border-radius: 4px;
 }
 
 .button:hover {
@@ -97,4 +98,8 @@ header div a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-movies {
+    margin-top: 5px ;
 }
